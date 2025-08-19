@@ -1,19 +1,21 @@
 import java.util.Scanner;
 public class CalculadoraB {
     Scanner leer = new Scanner(System.in);
-    System.out.println("***");
     System.out.println("Calculadora");
-    System.out.println("*****");
     System.out.println("Operaciones:\n1) Suma \n2) Resta\n3) Multiplicacion\n4) Division");
     int opcion = leer.nextInt();
 
 
 
+
+    
     double Resultado, valor1, valor2;
 
     switch(opcion){
 
-        case1://Suma
+
+      // ESTA PRIMERA OPCION SERA LA SUMA
+        case1:
         System.out.println("Primer Valor");
         valor1 = leer.nextDouble();
 
@@ -27,7 +29,8 @@ public class CalculadoraB {
 
 
 
-        case2://Resta
+        // ESTA PRIMERA OPCION SERA LA RESTA
+        case2:
         System.out.println("Primer Valor");
         valor1 = leer.nextDouble();
 
@@ -40,7 +43,8 @@ public class CalculadoraB {
         break;
 
 
-          case3://Multiplicacion
+        // ESTA PRIMERA OPCION SERA LA MULTIPLICACION
+          case3:
         System.out.println("Primer Valor");
         valor1 = leer.nextDouble();
 
@@ -53,7 +57,9 @@ public class CalculadoraB {
         break;
 
 
-          case4://Division
+
+        // ESTA PRIMERA OPCION SERA LA DIVISION
+          case4:
         System.out.println("Primer Valor");
         valor1 = leer.nextDouble();
 
