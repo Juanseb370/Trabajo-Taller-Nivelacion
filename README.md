@@ -1,3 +1,5 @@
+# SOLUCION DE LAS PREGUNTAS DEL TALLER DE NIVELACIÓN
+
 1. ¿qué es un repositorio en git y como se diferencia de un proyecto normal?
 los repositorios de git es un sistema de versiones que se utiliza para subir archivos a la nube y que puede ser editado por diferentes usuarios, y un proyecto normal no tiene la utilidad de ser editado por varios usuarios y ver los cambios de cada uno.
 
